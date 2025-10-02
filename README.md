@@ -31,17 +31,12 @@ pip install instagrapi instaloader imageio imageio-ffmpeg
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/IntaAutomation.git
+git clone https://github.com/CronLog1c/IntaAutomation.git
 ```
 2. Navigate to the project folder:  
 ```bash
 cd IntaAutomation
 ```
-3. Install dependencies:  
-```bash
-pip install -r requirements.txt
-```
-*(Optional: Create a `requirements.txt` with `instagrapi`, `instaloader`, `imageio`, `imageio-ffmpeg`.)*
 
 ---
 
