@@ -44,7 +44,7 @@ cd IntaAutomation
 
 Run the script:  
 ```bash
-python insta_automation.py
+python poster.py | Downloader.py
 ```
 
 **Steps:**
