@@ -1,26 +1,73 @@
-**IntaAutomation**
+# IntaAutomation
 
-InstaAutomation is a simple Python tool that allows you to download Instagram videos and re-upload them to any account automatically. All you need is the URL of the post, and the script handles the rest.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 
-**Features**
+**IntaAutomation** is a lightweight Python tool that allows you to **download Instagram videos** and **automatically re-upload them to any account**. Simply provide the URL of a post, and the script takes care of the rest.
 
-Download Instagram videos with a single URL.
+---
 
-Automatic uploading to any Instagram account using your credentials.
+## Features
 
-Built on reliable Python libraries: Instagrapi and Instaloader.
+- Download Instagram videos using a single URL.  
+- Automatically upload videos to any Instagram account.  
+- Built with reliable Python libraries: [Instagrapi](https://github.com/adw0rd/instagrapi) and [Instaloader](https://instaloader.github.io/).  
+- Easy setup and minimal dependencies.  
 
-**Requirements**
+---
 
-You'll need Python installed along with the following libraries:
+## Requirements
 
-pip install instagrapi instaloader
+- **Python 3.8+**  
+- **FFmpeg** installed and available in your system PATH (required for video processing).  
+- Python libraries:  
+```bash
+pip install instagrapi instaloader imageio imageio-ffmpeg
+```
 
-**How It Works**
+---
 
-Download: Enter the URL of the Instagram post you want to download.
+## Installation
 
-Save: The video is downloaded locally on your machine.
+1. Clone the repository:  
+```bash
+git clone https://github.com/yourusername/IntaAutomation.git
+```
+2. Navigate to the project folder:  
+```bash
+cd IntaAutomation
+```
+3. Install dependencies:  
+```bash
+pip install -r requirements.txt
+```
+*(Optional: Create a `requirements.txt` with `instagrapi`, `instaloader`, `imageio`, `imageio-ffmpeg`.)*
 
-Upload: Use your Instagram account credentials to automatically upload the video to your account.
+---
 
+## Usage
+
+Run the script:  
+```bash
+python insta_automation.py
+```
+
+**Steps:**
+
+1. Enter the URL of the Instagram post you want to download.  
+2. The video will be downloaded and saved locally.  
+3. Provide your Instagram login credentials to upload the video automatically.  
+
+---
+
+## Notes
+
+- Keep your Instagram credentials secure.  
+- Ensure FFmpeg is installed and accessible via your system PATH for proper video handling.  
+
+---
+
+## References
+
+- [Instagrapi GitHub](https://github.com/adw0rd/instagrapi)  
+- [Instaloader Official Site](https://instaloader.github.io/)  
