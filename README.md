@@ -1,5 +1,5 @@
-**InstaAutomation
-**
+**IntaAutomation**
+
 InstaAutomation is a simple Python tool that allows you to download Instagram videos and re-upload them to any account automatically. All you need is the URL of the post, and the script handles the rest.
 
 **Features**
@@ -16,8 +16,8 @@ You'll need Python installed along with the following libraries:
 
 pip install instagrapi instaloader
 
-**How It Works
-**
+**How It Works**
+
 Download: Enter the URL of the Instagram post you want to download.
 
 Save: The video is downloaded locally on your machine.
@@ -26,8 +26,8 @@ Upload: Use your Instagram account credentials to automatically upload the video
 
 Note: Make sure your account credentials are secure. InstaAutomation does not store login information permanently.
 
-**Instagrapi GitHub
-** – A fast and easy-to-use Instagram API client for Python.
+**Instagrapi GitHub**
+– A fast and easy-to-use Instagram API client for Python.
 
-**Instaloader GitHub
-** – A tool to download Instagram photos, videos, and metadata.
+**Instaloader GitHub**
+– A tool to download Instagram photos, videos, and metadata.
