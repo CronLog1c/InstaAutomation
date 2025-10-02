@@ -1,7 +1,6 @@
 # InstaAutomation
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 
 **InstaAutomation** is a lightweight Python tool that allows you to **download Instagram videos** and **automatically re-upload them to any account**. Simply provide the URL of a post, and the script takes care of the rest.
 
@@ -42,11 +41,15 @@ cd IntaAutomation
 
 ## Usage
 
-Run the script:  
+Run the scripts:  
 ```bash
-python poster.py | Downloader.py
+python Downloader.py
 ```
+**Then**
 
+```bash
+python poster.py
+```
 **Steps:**
 
 1. Enter the URL of the Instagram post you want to download.  
@@ -57,7 +60,7 @@ python poster.py | Downloader.py
 
 ## Notes
 
-- Keep your Instagram credentials secure.  
+- Keep your Instagram credentials in the config file.
 - Ensure FFmpeg is installed and accessible via your system PATH for proper video handling.  
 
 ---
