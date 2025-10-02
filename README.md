@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 
-**IntaAutomation** is a lightweight Python tool that allows you to **download Instagram videos** and **automatically re-upload them to any account**. Simply provide the URL of a post, and the script takes care of the rest.
+**InstaAutomation** is a lightweight Python tool that allows you to **download Instagram videos** and **automatically re-upload them to any account**. Simply provide the URL of a post, and the script takes care of the rest.
 
 ---
 
