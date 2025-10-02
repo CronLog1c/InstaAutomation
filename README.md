@@ -24,10 +24,3 @@ Save: The video is downloaded locally on your machine.
 
 Upload: Use your Instagram account credentials to automatically upload the video to your account.
 
-Note: Make sure your account credentials are secure. InstaAutomation does not store login information permanently.
-
-**Instagrapi GitHub**
-– A fast and easy-to-use Instagram API client for Python.
-
-**Instaloader GitHub**
-– A tool to download Instagram photos, videos, and metadata.
