@@ -30,11 +30,11 @@ pip install instagrapi instaloader imageio imageio-ffmpeg
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/CronLog1c/IntaAutomation.git
+git clone https://github.com/CronLog1c/InstaAutomation.git
 ```
 2. Navigate to the project folder:  
 ```bash
-cd IntaAutomation
+cd InstaAutomation
 ```
 
 ---
